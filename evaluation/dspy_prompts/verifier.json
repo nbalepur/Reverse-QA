@@ -1,0 +1,64 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "How many degrees are in a straight angle?",
+        "candidate_answer": "180",
+        "is_correct": "1"
+      },
+      {
+        "augmented": true,
+        "question": "Who is the famous fictional detective created by Sir Arthur Conan Doyle?",
+        "candidate_answer": "Sherlock Holmes",
+        "is_correct": "1"
+      },
+      {
+        "augmented": true,
+        "question": "How long would it take to count from 1 to 1,000,000,000,000,000,000,000,000,000,000,000, adding one second per number?",
+        "candidate_answer": "274 years, 2 months, 9 days and 14 hours.",
+        "is_correct": "0"
+      },
+      {
+        "question": "Who is the American composer and pianist known for works like \"Rhapsody in Blue\" and \"Porgy and Bess\"?",
+        "candidate_answer": "George Gershwin",
+        "is_correct": "1"
+      },
+      {
+        "question": "How many apples were in the basket when you first saw it, if you counted them 3 times and the sum of the counts was 297?",
+        "candidate_answer": "99 (assuming each count was of 33 apples)",
+        "is_correct": "1"
+      },
+      {
+        "question": "What is the ratio of a circle's circumference to its diameter?",
+        "candidate_answer": "pi",
+        "is_correct": "1"
+      },
+      {
+        "question": "What religious practice is being performed by the individual who is reciting the Hebrew scriptures in a rhythmic and melodic manner?",
+        "candidate_answer": "chanting Torah",
+        "is_correct": "0"
+      },
+      {
+        "question": "What type of medieval automaton was said to be able to answer questions and make prophecies?",
+        "candidate_answer": "a brazen head",
+        "is_correct": "1"
+      },
+      {
+        "question": "If you multiply 19 by 30, what is the result?",
+        "candidate_answer": "570",
+        "is_correct": "1"
+      },
+      {
+        "question": "What is the sum of the number of sides of a triangle and the number of sides of a nonagon?",
+        "candidate_answer": "179",
+        "is_correct": "0"
+      }
+    ],
+    "signature_instructions": "Given a question and a candidate answer, your goal is to determine whether or not the candidate answer can correctly answer the question.",
+    "signature_prefix": "Is Correct:"
+  }
+}

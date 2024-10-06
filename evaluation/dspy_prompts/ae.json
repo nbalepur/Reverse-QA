@@ -1,0 +1,71 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "answer1": "Battle of Waterloo",
+        "answer2": "Battle of Waterloo",
+        "equivalent": "Equivalent: 1"
+      },
+      {
+        "augmented": true,
+        "answer1": "491 accession",
+        "answer2": "500",
+        "equivalent": "0"
+      },
+      {
+        "augmented": true,
+        "answer1": "504 mixtures",
+        "answer2": "125^4",
+        "equivalent": "0"
+      },
+      {
+        "augmented": true,
+        "answer1": "Antonio Vivaldi and Johann Sebastian Bach",
+        "answer2": "Antonio Vivaldi (violin concertos), Johann Pachelbel (organ works)",
+        "equivalent": "Equivalent: 0"
+      },
+      {
+        "augmented": true,
+        "answer1": "Il Canzoniere",
+        "answer2": "The title of Petrarch's famous collection of poetry is \"Rerum vulgarium fragmenta\", often known as \"Il Canzoniere\" in Italian. It includes his sonnets to Laura.",
+        "equivalent": "Equivalent: 1"
+      },
+      {
+        "augmented": true,
+        "answer1": "467 feet",
+        "answer2": "634 meters",
+        "equivalent": "0"
+      },
+      {
+        "augmented": true,
+        "answer1": "958",
+        "answer2": "1854",
+        "equivalent": "0"
+      },
+      {
+        "augmented": true,
+        "answer1": "\u2018The Pit and the Pendulum\u2019",
+        "answer2": "\"The Pit and the Pendulum\" by Edgar Allan Poe.",
+        "equivalent": "Equivalent: 1"
+      },
+      {
+        "augmented": true,
+        "answer1": "265 years",
+        "answer2": "As of 2022, it has been approximately 205 years since the founding of the city of Pittsburgh, Pennsylvania. The city was incorporated on March 18, 1816.",
+        "equivalent": "0"
+      },
+      {
+        "augmented": true,
+        "answer1": "intellectual giftedness",
+        "answer2": "Giftedness or High Intelligence.",
+        "equivalent": "Equivalent: 1"
+      }
+    ],
+    "signature_instructions": "Given two answers, your goal is to determine whether the two answers are semantically equivalent and thus equal to each other. Output 1 if the answers are equivalent and 0 if they are not equivalent.",
+    "signature_prefix": "Equivalent:"
+  }
+}

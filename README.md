@@ -76,6 +76,7 @@ Please note that to run the self-consistency check, you must perform a four-step
 The relevant repositories for computing question difficulty and token count are below:
 * Question Difficulty: [Prometheus LLM](https://github.com/prometheus-eval/prometheus-eval)
 * Token Count: [Infini-Gram](https://huggingface.co/spaces/liujch1998/infini-gram)
+If you would like to have these re-implemented on this repo, please raise an issue and let us know!
 
 ## Contact
 

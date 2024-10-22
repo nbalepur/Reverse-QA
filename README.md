@@ -8,7 +8,7 @@ This repository contains the code and dataset to compare the reliability of LLM 
 
 ## Dataset
 
-Our dataset contains 3450 question/answer pairs across four categories (Number, Number + Text, Easy Facts, Hard Facts), and can be accessed through Huggingface [here](https://huggingface.co/datasets/nbalepur/QG-vs-QA) 
+Our dataset contains 3443 question/answer pairs across four categories (Number, Number + Text, Easy Facts, Hard Facts), and can be accessed through Huggingface [here](https://huggingface.co/datasets/nbalepur/QG-vs-QA) 
 
 ## Setup
 
@@ -16,6 +16,12 @@ Python 3.10.0, pip 23.2.1, and CUDA Version: 12.4 were used when running the cod
 
 ```
 pip install -r requirements.txt 
+```
+
+Afterwards, if you would like to use HuggingFace models on GPU, you can install the relevant packages with the following command:
+
+```
+pip install torch==2.4.1+cu124 torchvision==0.19.1+cu124 torchaudio==2.4.1+cu124 --index-url https://download.pytorch.org/whl/cu124
 ```
 
 The files in this repository are organized as follows:

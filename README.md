@@ -48,7 +48,7 @@ You can change the following parameters for each run:
 
 API tokens (depending on the model) can be specified:
 * `hf_token`: Huggingface read token (for downloading gated models and datasets). String type
-* `open_ai_token`: OpenAI token (fGPT models). String type
+* `open_ai_token`: OpenAI token (GPT models). String type
 * `cohere_token`: Cohere token (Command-R models). String type
 * `anthropic_token`: Anthropic token (Claude models). String type
 

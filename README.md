@@ -1,10 +1,10 @@
 # QG vs QA
 
-This repository is the official implementation of "Question Answering Meets Answer Questioning: Exposing LLM Inconsistencies in Deductive and Abductive Reasoning", which will soon be uploaded to Arxiv
+This repository is the official implementation of "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?", which can be found on Arxiv [here](https://arxiv.org/abs/2410.15512).
 
 ## Overview
 
-This repository contains the code and dataset to compare the reliability of LLM abduction and deduction, evaluated through zero-shot question generation and question answering, respectively.
+This repository contains the code and dataset to compare the accuracy and consistency of LLM question answering and reverse question answering.
 
 ## Dataset
 

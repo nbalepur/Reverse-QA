@@ -1,6 +1,6 @@
 # Reverse Question Answering
 
-This repository is the official implementation of "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?", which can be found on Arxiv [here](https://arxiv.org/abs/2410.15512).
+This repository is the official implementation of "Reverse Question Answering: Can an LLM Write a Question so Hard (or Bad) that it Can't Answer?", which was accepted to NAACL 2025 and can be found [here](https://arxiv.org/abs/2410.15512).
 
 ## Overview
 
